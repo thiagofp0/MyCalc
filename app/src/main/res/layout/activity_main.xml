@@ -30,4 +30,111 @@
         android:maxLines="1"
         android:ellipsize="end"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:id="@+id/limpar"
+            style="@style/operadores"
+            android:text="C"/>
+
+        <TextView
+            android:id="@+id/divisao"
+            style="@style/operadores"
+            android:text="/"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/sete"
+            style="@style/numeros"
+            android:text="7"/>
+        <TextView
+            android:id="@+id/oito"
+            style="@style/numeros"
+            android:text="8"/>
+        <TextView
+            android:id="@+id/nove"
+            style="@style/numeros"
+            android:text="9"/>
+        <TextView
+            android:id="@+id/multiplicacao"
+            style="@style/operadores"
+            android:text="x"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/quatro"
+            style="@style/numeros"
+            android:text="4"/>
+        <TextView
+            android:id="@+id/cinco"
+            style="@style/numeros"
+            android:text="5"/>
+        <TextView
+            android:id="@+id/seis"
+            style="@style/numeros"
+            android:text="6"/>
+        <TextView
+            android:id="@+id/subtracao"
+            style="@style/operadores"
+            android:text="-"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/um"
+            style="@style/numeros"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/dois"
+            style="@style/numeros"
+            android:text="2"/>
+        <TextView
+            android:id="@+id/tres"
+            style="@style/numeros"
+            android:text="3"/>
+        <TextView
+            android:id="@+id/adicao"
+            style="@style/operadores"
+            android:text="+"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/ponto"
+            style="@style/numeros"
+            android:text="."/>
+        <TextView
+            android:id="@+id/zero"
+            style="@style/numeros"
+            android:text="0"/>
+        <ImageView
+            android:id="@+id/backsapce"
+            style="@style/numeros"
+            android:scaleX="0.3"
+            android:scaleY="0.3"
+            android:src="@drawable/ic_baseline_backspace_12"/>
+        <TextView
+            android:id="@+id/igual"
+            style="@style/operadores"
+            android:text="="/>
+    </LinearLayout>
+
 </LinearLayout>
